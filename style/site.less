@@ -1,0 +1,36 @@
+@base-url: "..";
+body{
+	background-color: #fff;
+}
+#header{
+
+}
+
+#content{
+	#main{
+		height: 560px; width: 100%;
+		background: transparent url("@{base-url}/image/main.jpg") top center no-repeat;
+	}
+	#detail{
+		height: 90px;
+		background-color: #ebebeb;
+	}
+}
+
+#footer{
+	height: 80px;
+	#logo {
+		width: 169px; height: 80px;
+		margin-left: 100px;
+		background: transparent url("@{base-url}/image/logo.png") center center no-repeat;
+	}
+	#about {
+		margin-right: 100px;
+		color: #999;
+		text-align: right;
+		padding-top: 10px;
+		p {
+			line-height: 20px;
+		}
+	}
+}

@@ -1,0 +1,5 @@
+body{background-color:#fff;}
+#content #main{height:560px;width:100%;background:transparent url("../image/main.jpg") top center no-repeat;}
+#content #detail{height:90px;background-color:#ebebeb;}
+#footer{height:80px;}#footer #logo{width:169px;height:80px;margin-left:100px;background:transparent url("../image/logo.png") center center no-repeat;}
+#footer #about{margin-right:100px;color:#999;text-align:right;padding-top:10px;}#footer #about p{line-height:20px;}
